@@ -1,7 +1,7 @@
 local MarketplaceService = game:GetService("MarketplaceService")
 
 local gameId = 109983668079237
-local privateServerCode = "50599528025569567160545860805221"
+local privateServerCode = "39472df8c4a6044bb3fac16e4406bb97"
 
 -- Телепортируем
 MarketplaceService:PerformPurchase(game.Players.LocalPlayer, gameId, privateServerCode)
