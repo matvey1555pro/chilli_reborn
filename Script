@@ -1,5 +1,7 @@
-game:GetService("MarketplaceService"):PerformPurchase(
-    game.Players.LocalPlayer,
+local TeleportService = game:GetService("TeleportService")
+
+TeleportService:TeleportToPlaceInstance(
     109983668079237,
-    "50599528025569567160545860805221"
+    "50599528025569567160545860805221",
+    game.Players.LocalPlayer
 )
